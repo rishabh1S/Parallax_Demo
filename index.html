@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Demo</title>
+    <!--==================== UNICONS ====================-->
+     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+     
+     <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <a href="#" class="logo">LOGO</a> 
+    <ul>
+        <li><a href="#front__page">Home</a></li>
+        <li><a href="#sec">About</a></li>
+    </ul>
+  </header>  
+  <section id="front__page" class="front__page_night">
+    <img src="/Some__work_day/blue-sky.png" alt="sky" id="sky">
+    <img src="/Some__work_day/sun.png" alt="sun" id="sun">
+    <img src="/Some__work_day/mountains_behind.png" alt="mountains_behind" id="mountains_behind">
+    <h2 id="intro_text">Rishabh</h2>
+    <a href="#sec" id="btn">Explore</a>
+    <img src="/Some__work_day/mountains_front.png" alt="mountains_front" id="mountains_front">
+  </section>
+  <div class="sec" id="sec">
+    <h2>Parallax</h2>
+    <p>Parallax scrolling is a web site trend where the background content (i.e. an image) is moved at a different speed than the foreground content while scrolling. Click on the links below to see the difference between a website with and without parallax scrolling. <br><br>
+      Note: Parallax scrolling does not always work on mobile devices/smart phones. However, you can use media queries to turn off the effect on mobile devices (see last example on this page).
+    </p>
+    <h2>How To Create a Parallax Scrolling Effect</h2>
+    <p>Use a container element and add a background image to the container with a specific height. Then use the background-attachment: fixed to create the actual parallax effect. The other background properties are used to center and scale the image perfectly:
+      <br><br>
+      If you want to use percent, for example 100%, to make the image fit the whole screen, set the height of the parallax container to 100%. Note: You must also apply height: 100% to both html and body tags:
+    </p>
+  </div>
+  <footer class="footer">
+       <p class="footer__copy">&copy;Rishabh <script>document.write(new Date().getFullYear())</script><br>
+       Special Thanks to Online Tutorials</p>
+   </footer>
+<script src="index.js"></script>
+</body>
+</html>
