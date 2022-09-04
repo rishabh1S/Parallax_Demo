@@ -140,22 +140,6 @@ section img#mountains_front{
     padding: 2rem 1rem;
 }
 
-/*========== SCROLL BAR ==========*/
-::-webkit-scrollbar{
-    width: .60rem;
-    background-color: #ffecee;
-    /* border-radius: .5rem; */
-  }
-  
-  ::-webkit-scrollbar-thumb{
-    background-color: #abc9ff;
-    border-radius: .5rem;
-  }
-  
-  ::-webkit-scrollbar-thumb:hover{
-    background-color: #DBDFFD;
-  }
-
   /*==================== FOOTER ====================*/
 .footer{
     padding-top: 2rem;
